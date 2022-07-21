@@ -1,4 +1,4 @@
-
+ 
 package cuentabancaria;
 
 
@@ -12,7 +12,7 @@ public class ClaseCuentaBancaria {
     private double saldoActual;
     private int interes;
     public String nombre;
-   
+   private String atr1;
 
     public ClaseCuentaBancaria(int numeroCuenta, int dni, double saldoActual, int interes) {
         this.numeroCuenta = numeroCuenta;
